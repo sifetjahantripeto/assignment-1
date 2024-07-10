@@ -318,3 +318,89 @@ letter-spacing: 0%;
 text-align: left;
 opacity: .7;
 }
+
+.back{
+    background-image: url(../assets/handshake.jpg);
+    border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+position: absolute;
+width: 957px;
+height: 286px;
+left: 126px;
+right: 126px;
+top: 4182px;
+bottom: 160px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 60px 45px 60px 45px;
+}
+.ti5{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.sub5{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.search{
+    position: static;
+    width: 684px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.sr{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+position: static;
+width: 548px;
+height: 57px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 19px 20px 19px 20px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+
+}
+.btn5{
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+position: static;
+width: 120px;
+height: 58px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+}
