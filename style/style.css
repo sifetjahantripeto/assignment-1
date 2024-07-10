@@ -207,7 +207,7 @@ opacity: .7;
 #card-box{
     position: absolute;
 width: 860px;
-height: 1308px;
+height: 600px;
 left: 126px;
 right: 126px;
 top: 2972px;
@@ -403,4 +403,53 @@ flex: none;
 order: 1;
 flex-grow: 0;
 margin: 0px 16px;
+}
+
+.last{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    left: 0;
+    top: 4322px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 29px 136px 329px 136px;
+    position: absolute;
+width: 1209px;
+height: 92px;
+left: 0;
+top: 4682px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 29px 136px 329px 136px;
+
+    
+}
+.foot{
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+    position: static;
+width: 958px;
+height: 300x;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+}
+.lasttitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
